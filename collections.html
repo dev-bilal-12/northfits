@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Collections — North Fits</title>
+  <meta name="description" content="Browse the full North Fits collection — every trendy outfit and premium trouser in one place." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="NORTH%20FITS%20LOGO.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Loader -->
+  <div class="loader" data-loader>
+    <div class="loader-spin">
+      <span class="loader-ring r1"></span>
+      <span class="loader-ring r2"></span>
+      <img src="NORTH%20FITS%20LOGO.png" alt="North Fits" />
+    </div>
+  </div>
+
+  <div class="announcement">
+    <p>Complimentary Express Shipping on Orders Over Rs. 4,999 &nbsp;·&nbsp; New Autumn Collection Now Live</p>
+  </div>
+
+  <header class="header">
+    <div class="container header-inner">
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <a class="brand" href="index.html">
+        <span class="brand-frame"><img src="NORTH%20FITS%20LOGO.png" alt="North Fits" /></span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="arrivals.html">New Arrivals</a></li>
+          <li><a href="trousers.html">Trousers</a></li>
+          <li><a href="outfits.html">Outfits</a></li>
+          <li><a href="collections.html" class="active">Collections</a></li>
+                  </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></button>
+        
+        <button class="icon-btn cart-btn" aria-label="Cart" data-cart-open>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 7h12l1 13H5L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+          <span class="cart-count" data-cart-count>0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" data-mobile-menu>
+    <nav aria-label="Mobile">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="arrivals.html">New Arrivals</a></li>
+        <li><a href="trousers.html">Trousers</a></li>
+        <li><a href="outfits.html">Outfits</a></li>
+        <li><a href="collections.html">Collections</a></li>
+              </ul>
+    </nav>
+  </div>
+
+  <section class="page-hero">
+    <span class="page-hero-mark">North Fits</span>
+    <div class="container">
+      <p class="eyebrow">The Full Edit</p>
+      <h1>All Collections</h1>
+      <p class="lead">Every trouser, every outfit, every limited drop — the complete North Fits wardrobe in one place.</p>
+    </div>
+  </section>
+
+  <section class="section section-tint" id="collections">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Shop by Category</p>
+        <h2>Signature Collections</h2>
+      </div>
+      <div class="collections">
+        <a href="trousers.html" class="collection-item" data-collection="0">
+          <div class="collection-visual vis-trousers">
+            <span class="collection-chip">Shop Trousers</span>
+          </div>
+          <div class="collection-meta">
+            <h3>Precision Trousers</h3>
+            <p>Structured cuts · Relaxed fits · Tailored seams</p>
+          </div>
+        </a>
+        <a href="outfits.html" class="collection-item" data-collection="1">
+          <div class="collection-visual vis-outfits">
+            <span class="collection-chip">Shop Outfits</span>
+          </div>
+          <div class="collection-meta">
+            <h3>Signature Outfits</h3>
+            <p>Complete looks · Co-ords · Limited sets</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="page-head">
+        <p class="crumb"><a href="index.html">Home</a> / Collections</p>
+        <h2>Everything in Stock</h2>
+      </div>
+      <div class="product-grid" data-products></div>
+    </div>
+  </section>
+
+  <section class="section newsletter">
+    <div class="container newsletter-inner">
+      <p class="eyebrow">Join the Inner Circle</p>
+      <h2>Be first to new drops &amp; private fits.</h2>
+      <p>Subscribe for early access to limited collections, restocks and member-only offers.</p>
+      <form class="newsletter-form" data-newsletter>
+        <input type="email" placeholder="Enter your email address" aria-label="Email address" required />
+        <button type="submit" class="btn btn-solid">Subscribe</button>
+      </form>
+      <p class="form-note" data-newsletter-note></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-frame footer-logo"><img src="NORTH%20FITS%20LOGO.png" alt="North Fits" /></span>
+        <p>Premium outfits &amp; trousers engineered for the modern wardrobe.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="arrivals.html">New Arrivals</a></li>
+          <li><a href="trousers.html">Trousers</a></li>
+          <li><a href="outfits.html">Outfits</a></li>
+          <li><a href="collections.html">Collections</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="about.html">Store Locator</a></li>
+          <li><a href="about.html">Careers</a></li>
+          <li><a href="about.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="trousers.html">Size Guide</a></li>
+          <li><a href="about.html">Shipping &amp; Returns</a></li>
+          <li><a href="about.html">Track Order</a></li>
+          <li><a href="about.html">FAQs</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span data-year>2026</span> North Fits. All rights reserved.</p>
+      <p>Crafted with care. Premium fits, always.</p>
+    </div>
+  </footer>
+
+  <div class="cart-backdrop" data-cart-backdrop></div>
+  <aside class="cart" data-cart aria-label="Shopping cart">
+    <div class="cart-head">
+      <h3>Your Cart</h3>
+      <button class="icon-btn" aria-label="Close cart" data-cart-close><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+    <ul class="cart-list" data-cart-list></ul>
+    <div class="cart-foot">
+      <div class="cart-total"><span>Subtotal</span><strong data-cart-total>Rs. 0</strong></div>
+      <button class="btn btn-solid btn-block" data-checkout>Checkout</button>
+      <p class="cart-note">Taxes &amp; shipping calculated at checkout.</p>
+    </div>
+  </aside>
+
+  
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Temp
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
