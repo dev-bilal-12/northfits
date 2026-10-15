@@ -57,5 +57,46 @@ const NF_PRODUCTS = [
       'uploads/product1-2.jpg',
       'uploads/product1-3.jpg'
     ]
+  },
+  {
+    name: 'Cotton Relaxed Linen Fitted Trouser',
+    category: 'Trousers',
+    price: 1950,
+    oldPrice: 2450,
+    visual: 'visual-fabric',
+    colors: [
+      { name: 'Slate Grey', hex: '#778899' },
+      { name: 'Black', hex: '#000000' }
+    ],
+    sizes: ['M', 'L', 'XL'],
+    new: true,
+    desc: 'Relaxed-fit cotton trouser with a clean, tapered drape. Soft, breathable fabric and an easy mid-rise waist make it an everyday staple that moves with you. Pairs effortlessly with both casual tees and structured shirts.',
+    locations: ['new', 'trousers', 'collections'],
+    images: [
+      'uploads/product2-1.jpg',
+      'uploads/product2-2.jpg'
+    ]
+  },
+  {
+    name: 'Straight China Dry Fit Trouser',
+    category: 'Trousers',
+    price: 2050,
+    oldPrice: 2450,
+    visual: 'visual-fabric',
+    colors: [
+      { name: 'Peach', hex: '#FAD6A5' },
+      { name: 'Navy', hex: '#0B3954' },
+      { name: 'Black', hex: '#000000' },
+      { name: 'Cream', hex: '#FEFBEA' },
+      { name: 'Taupe', hex: '#A38368' }
+    ],
+    sizes: ['M', 'L', 'XL'],
+    new: true,
+    desc: 'Straight-leg trouser in lightweight China dry-fit fabric — crisp, breathable and wrinkle-resistant. A clean tailored line with an easy mid-rise fit keeps you sharp all day, whether you dress it up or keep it casual.',
+    locations: ['new', 'trousers', 'collections'],
+    images: [
+      'uploads/product3-1.jpg',
+      'uploads/product3-2.jpg'
+    ]
   }
 ];
